@@ -264,27 +264,29 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
     margin: 0;
     overflow: hidden;
     background-color: #000;
+    border: none;
 }
 
 .top-left {
     
-    
     border-top-left-radius: 40px;
+
 }
 .top-right {
     
-
     border-top-right-radius: 40px;
 }
 .bottom-left {
     
 
     border-bottom-left-radius: 40px;
+
 }
 .bottom-right {
     
- 
+   
     border-bottom-right-radius: 40px;
+    
 }
 .figure-image img {
    
@@ -305,6 +307,8 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
     
 }
 
+
+
 .figure-image div {
    
   position: absolute;
@@ -315,8 +319,9 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
     height: 0px;
     overflow: hidden;
     border-radius: 30%;
-    transition-duration: 1s; 
+    transition-duration: 1.5s; 
     transition-property: height, background;
+    
     
 }
 
@@ -329,6 +334,8 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
     color: #fbf9ee;
     background-color: #ad6511;
 }
+
+
 
 /*  customers-opinion  */
 
@@ -398,15 +405,16 @@ cite img {
 footer {
     
     background-color: rgba(36, 36, 36, 0.91);
+    height: 115px;
     padding: 1px;
-    margin: 20px 5px;
+    margin: 10px 5px;
     font-size: 90%;
     
 }
 .center-footer {
     
    text-align: center;
-   margin-top: -90px;
+   margin: -90px;
 }
 
 .left-part-footer {
@@ -416,16 +424,18 @@ footer {
     
 }
 
+
+
 .left-part-footer a img {
-    
-    width: 25%;
-    height: 25%;
+    margin: -15px 0px 0px 0px;
+    width: 18%;
+    height: 18%;
     
 }
 
 .social-links {
     
-    top: 21px;
+    margin: -10px 10px 0px;
     list-style: none;
     float: right;
     

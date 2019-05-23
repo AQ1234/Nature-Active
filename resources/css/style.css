@@ -196,12 +196,14 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
     text-decoration: none;
     border-bottom:  2px solid transparent;
     transition: border-bottom 0.2s;
+  
 
 }
 .main-nav li a:hover,
 .main-nav li a:active {
     color: #fbf9ee;
     border-bottom:  3px solid #c47519;
+    
    
 }
 .main-header {
@@ -304,7 +306,6 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
     
     opacity: 0.4;
     transform: scale(1.03);
-    
 }
 
 
@@ -313,20 +314,23 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
    
   position: absolute;
   
+    transform-origin:50% 0;
+    transform: scaleY(0);
     padding-top: 2%;
     margin: 50px 160px;
     width: 300px;
     height: 0px;
     overflow: hidden;
     border-radius: 30%;
-    transition-duration: 1.5s; 
-    transition-property: height, background;
+    transition-duration: 0.9s; 
+   
     
     
 }
 
 .figure-image:hover div {
    
+    transform: scaleY(1);
     overflow: hidden;
     height: 250px;
     font-size: 20px;

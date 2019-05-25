@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1360px) {
+
+  .group section {padding: 0 2%;}  
+
+}
+
+@media only screen and (max-width: 1023px) {
+    
+    body { font-size: 18px; }
+    
+    
+/* HEADER */
+    
+    .mainlogo {
+    
+    float: left;
+     width: 235px;
+     margin-top: 15px;
+        
+}
+/*  customers-opinion  */
+    
+    cite.two { margin-top: 27px;}
+    cite.three { margin-top: 45px; }
+    
+/* OFFERS */
+   
+    
+/*FOOTER */
+    
+    footer { font-size: 90%; }
+    
+    .center-footer {
+    
+   text-align: center;
+   margin: -60px;
+        
+}
+    
+    .left-part-footer a img {
+        
+    margin: -17px 0px 0px 0px;
+    width: 32%;
+    
+}
+    
+    .social-links {
+
+    margin: -10px 10px 0px;
+    list-style: none;
+    float: right;
+    
+}
+    
+    .social-links li {
+        
+    display: inline-block;
+    margin-right: 21px;
+    font-size: 190%;
+   
+}
+    
+}

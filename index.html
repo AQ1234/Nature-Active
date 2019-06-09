@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html lang="PL-pl" "eng">
+
 <head>
-    
+
     <meta charset="utf-8">
-   <meta name="viewport" content="width-device-with, initial scale-1.0">
+    <meta name="viewport" content="width-device-with, initial scale-1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nature-Active</title>
-    
+
     <!--style -->
     <link rel="stylesheet" type="text/css" href="Grid_system/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700" rel="stylesheet">
-    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet"> 
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>Nature-Active</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" type="image/png" href="resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--nav bar lin k example -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
     <header>
         <nav>
-        <img src="resources/img/onlinelogomaker-051519-2011-4086.png" class="mainlogo">
-        <ul class="main-nav">
-            <li><a href="#">Main Page</a></li>
-            <li><a href="#">Prices</a></li>
-            <li><a href="#">Offer</a></li>
-            <li><a href="#">About us</a></li>
-        </ul>
+            <img src="resources/img/onlinelogomaker-051519-2011-4086.png" class="mainlogo">
+            <ul class="main-nav" id="js--main-nav">
+                <li><a href="#">Main Page</a></li>
+                <li><a href="#">Prices</a></li>
+                <li><a href="#">Offer</a></li>
+                <li><a href="#">About us</a></li>
+               
+            </ul>
+           <a href="javascript:void(0);" class="mobile-nav-icon" onclick="myFunction2()"><ion-icon name="menu"></ion-icon></a>
+            <div class="main-header">
+                <h1>Get up and let's go to the new natural world</h1>
+                <a class="btn btn-join" href="#">Join me!</a>
+                <a class="btn btn-read" href="#">Read more</a>
+            </div>
         </nav>
-        <div class="main-header">
-            <h1>Get up and let's go to the new natural world</h1>
-            <a class="btn btn-join" href="#">Join me!</a>
-            <a class="btn btn-read" href="#">Read more</a>
+    </header>
+    <section class="section-feauters">
+        <div class="section group">
+            <h2>Leave the old life - You can do it</h2>
+            <p class="desc-section-feauters">Do you want to be faster, healthier and better inside? Do you feel the desire in heart? Do you remember the superheroes of your best childhood years? It's not a joke you can try it now! It's not a joke, dare! You won't regret, just <strong>NATURE - ACTIVE!</strong></p>
+
         </div>
-        </header>  
-      <section class="section-feauters">
-          <div class="section group">
-        <h2>Leave the old life - You can do it</h2>
-              <p class="desc-section-feauters">Do you want to be faster, healthier and better inside? Do you feel the desire in heart? Do you remember the superheroes of your best childhood years? It's not a joke you can try it now! It's not a joke, dare! You won't regret, just <strong>NATURE - ACTIVE!</strong></p>    
-       
-        </div>
-      </section>
-          <section class="section-offers">
-                
-              <ul class="offer-image clearfix">
-                  <li>
+    </section>
+    <section class="section-offers">
+
+        <ul class="offer-image clearfix">
+            <li>
                 <figure class="figure-image top-left">
-                     <div><h3>Bushcrafting</h3>
-                    -We will be fining the best forests in your life<br>    
-                    -You will be having the best adventure <br>
-                    -We will survive...and many many more<br>
+                    <div>
+                        <h3>Bushcrafting</h3>
+                        -We will be fining the best forests in your life<br>
+                        -You will be having the best adventure <br>
+                        -We will survive...and many many more<br>
                     </div>
                     <img src="resources/img/nature-forest-trees-fog.jpg" alt="forest">
                 </figure>
-            </li>  
+            </li>
             <li>
                 <figure class="figure-image top-right">
-                     <div><h3>Incredible Climbing!</h3>
-                         -We will be climbing in the beautiful mountains<br>
-                         -You will be training your muscles every day<br>
-                         -You will be stronger and more agility <br>
+                    <div>
+                        <h3>Incredible Climbing!</h3>
+                        -We will be climbing in the beautiful mountains<br>
+                        -You will be training your muscles every day<br>
+                        -You will be stronger and more agility <br>
                     </div>
                     <img src="resources/img/mountain.jpg" alt="mountain">
                 </figure>
@@ -65,77 +87,106 @@
         <ul class="offer-image clearfix">
             <li>
                 <figure class="figure-image bottom-left">
-                     <div><h3> lighting a fire!</h3>
-                    -We Light a fire on evening<br>    
-                    -We are using only real wood<br>
-                    -You will find the best pleaces for bonfire<br>
+                    <div>
+                        <h3> lighting a fire!</h3>
+                        -We Light a fire on evening<br>
+                        -We are using only real wood<br>
+                        -You will find the best pleaces for bonfire<br>
                     </div>
                     <img src="resources/img/fire.jpg" alt="fire">
                 </figure>
-                </li>   
-                <li>
+            </li>
+            <li>
                 <figure class="figure-image bottom-right">
-                    <div><h3>Walking on beach!</h3>
-                    -We will be walking everyday<br>    
-                    -You will be walking across the beach from 5 a.m to 7 a.m<br>
-                    -You will have to walking not less than 45 minutes<br>
+                    <div>
+                        <h3>Walking on beach!</h3>
+                        -We will be walking everyday<br>
+                        -You will be walking across the beach from 5 a.m to 7 a.m<br>
+                        -You will have to walking not less than 45 minutes<br>
                     </div>
                     <img src="resources/img/beach.jpg" alt="beach">
                 </figure>
-                </li>
+            </li>
         </ul>
-             
-        </section>
-        <section class="customers-opinion">
-         <div class="section group">
-                <h2>Our customers can't stop living with nature!</h2>
-            </div>
-            <div class="section group">
+
+    </section>
+    <section class="customers-opinion">
+        <div class="section group">
+            <h2>Our customers can't stop living with nature!</h2>
+        </div>
+        <div class="section group">
             <div class="col span_1_of_3">
-            <blockquote>
-                We've seen amazing results already. I could probably go into sales for you. Nature-Active is both attractive and highly adaptable. Nature-Active is the most valuable business resource we have EVER purchased. 
-                <cite><img src="resources/img/Person%20-%20Richard%20Phipps.jpg">Richard Philips</cite> 
+                <blockquote>
+                    We've seen amazing results already. I could probably go into sales for you. Nature-Active is both attractive and highly adaptable. Nature-Active is the most valuable business resource we have EVER purchased.
+                    <cite><img src="resources/img/Person%20-%20Richard%20Phipps.jpg">Richard Philips</cite>
                 </blockquote>
             </div>
             <div class="col span_1_of_3 two">
-            <blockquote>
-                Thanks to Nature-Active, we've just launched our 5th website! Nature-Active saved my business. Nature-Active is the most valuable business resource we have EVER purchased. I use Nature-Active often.
-                <cite class="two"><img src="resources/img/Person2%20-%20Sara%20Wilson.jpg">Sara Wilson</cite> 
+                <blockquote>
+                    Thanks to Nature-Active, we've just launched our 5th website! Nature-Active saved my business. Nature-Active is the most valuable business resource we have EVER purchased. I use Nature-Active often.
+                    <cite class="two"><img src="resources/img/Person2%20-%20Sara%20Wilson.jpg">Sara Wilson</cite>
                 </blockquote>
             </div>
             <div class="col span_1_of_3 ">
-            <blockquote>
-                Really good. Nature-Active is worth much more than I paid. Nature-Active was worth a fortune to my company. Nature-Active was the best investment I ever made.
-                <cite class="three"><img src="resources/img/Person3%20-%20Robert%20Obrien.jpg">Robert Obrien</cite> 
+                <blockquote>
+                    Really good. Nature-Active is worth much more than I paid. Nature-Active was worth a fortune to my company. Nature-Active was the best investment I ever made.
+                    <cite class="three"><img src="resources/img/Person3%20-%20Robert%20Obrien.jpg">Robert Obrien</cite>
                 </blockquote>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
     <footer>
         <div class="section group">
-        <div class="col span_1_of_2 box">
-            <div class="left-part-footer">
-                <a href="index.html" class="logo-footer"><img src="resources/img/onlinelogomaker-051519-2011-4086.png" class="mainlogo"></a>
-          </div>
-         </div>
-        <div class="col span_1_of_2 box">
-            <ul class="social-links">
-                <h4>Visit our :</h4>
-            <li><a href="https://www.facebook.com" target="_blank"><ion-icon name="logo-facebook" class="logo-facebook"></ion-icon></a></li>        
-            <li><a href="https://www.twitter.com" target="_blank"><ion-icon name="logo-twitter" class="logo-twitter"></ion-icon></a></li>  
-            <li><a href="https://www.google.com" target="_blank"><ion-icon name="logo-googleplus" class="logo-googleplus"></ion-icon></a></li>  
-            </ul>
-        </div>
+            <div class="col span_1_of_2 box">
+                <div class="left-part-footer">
+                    <a href="index.html" class="logo-footer"><img src="resources/img/onlinelogomaker-051519-2011-4086.png" class="mainlogo"></a>
+                </div>
             </div>
-            <div class="section group">
+            <div class="col span_1_of_2 box">
+                <ul class="social-links">
+                    <h4>Visit our :</h4>
+                    <li><a href="https://www.facebook.com" target="_blank">
+                            <ion-icon name="logo-facebook" class="logo-facebook"></ion-icon>
+                        </a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">
+                            <ion-icon name="logo-twitter" class="logo-twitter"></ion-icon>
+                        </a></li>
+                    <li><a href="https://www.google.com" target="_blank">
+                            <ion-icon name="logo-googleplus" class="logo-googleplus"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section group">
             <div class="center-footer">
                 <p>
-            Copyright © 2019 by Nature-Active. All right reserved
+                    Copyright © 2019 by Nature-Active. All right reserved
                 </p>
             </div>
-            </div>
-        
+        </div>
     </footer>
+
+    <!--topnav example -->
+
+    <ul class="topnav" id="myTopnav">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a></li>
+    </ul>
+
+    <div style="padding-left:16px">
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works.</p>
+    </div>
+
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="resources/js/script.js"></script>
+    <!--navbar script example -->
+
 </body>
+
 </html>

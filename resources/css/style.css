@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 
@@ -16,7 +16,7 @@ body {
     background-image: radial-gradient(rgba(251, 249, 238,0.75),rgba(251, 249, 238,0.75)), url(largetree-min.jpg); 
     background-size: cover; 
     color: #fbf9ee;
-    
+    height: 2000px;
 }
 
 
@@ -153,43 +153,51 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
  background-attachment: fixed;
 
 }
+
 .mainlogo {
     
     float: left;
-    margin-top: 15px;
+    margin-top: -2px;
+    width: 16%;
+    display: block;
+
 }
 .mainlogo:hover,
-.mainlogo:active{
-    
- /* something to hover and change logo color */
+.mainlogo:active {
+
+    /* something to hover and change logo color */
 }
+
 .main-nav {
     float: right;
     margin: 25px 15px;
     list-style: none;
     overflow: hidden;
 }
+
 .main-nav li {
-    
+
     display: inline-block;
     margin: 30px;
-       
+
 }
+
 .main-nav li a:link,
 .main-nav li a:visited {
     color: #ffffff;
     padding-bottom: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    border-bottom:  2px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
-  
+
 
 }
+
 .main-nav li a:hover,
 .main-nav li a:active {
     color: #fbf9ee;
-    border-bottom:  3px solid #c47519;
+    border-bottom: 3px solid #c47519;
 
 }
 
@@ -197,6 +205,32 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
 
 
 /*Sticky navi*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 3px 13px #dedede;
+    z-index: 9999;
+
+}
+
+.sticky .main-nav {
+    margin-top: -15px;
+}
+
+.sticky img {
+    width: 132px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 15px 0;
+    color: #555;
+
+}
 
 .mobile-nav-icon {
     
@@ -234,15 +268,7 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
 
 }
 
-
-.section-feauters .desc-section-feauters {
-    
-    
-  
-    margin-bottom: 50px;
-
-   
-}
+.section-feauters .desc-section-feauters {  margin-bottom: 50px; }
 
 /* OFFERS */
 

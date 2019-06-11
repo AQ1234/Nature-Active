@@ -49,13 +49,6 @@
 
     /* HEADER */
 
-    .mainlogo {
-
-        float: left;
-        width: 235px;
-        margin-top: 15px;
-
-    }
 
     /*  customers-opinion  */
 
@@ -129,10 +122,7 @@
         font-size: 17px;
     }
 
-    .mainlogo {
-        width: 25%;
-    }
-
+ 
     .main-nav {
         float: right;
         margin: 25px 15px;

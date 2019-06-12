@@ -22,14 +22,14 @@
     <link rel="manifest" href="/resources/favicons/site.webmanifest">
     <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" type="image/png" href="resources/favicons/favicon.ico">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
     <!--nav bar lin k example -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+   
 </head>
 
 <body>
@@ -37,24 +37,38 @@
         <nav>
             <img src="resources/img/onlinelogomaker-051519-2011-4086.png" class="mainlogo">
             <ul class="main-nav" id="js--main-nav">
-                <li><a href="#">Main Page</a></li>
+                <li><a href="#header">Main Page</a></li>
                 <li><a href="#">Prices</a></li>
+<<<<<<< Updated upstream
                 <li><a href="#">Offer</a></li>
                 <li><a href="#">About us</a></li>
                
             </ul>
            <a href="javascript:void(0);" class="mobile-nav-icon" onclick="myFunction2()"><ion-icon name="menu"></ion-icon></a>
             <div class="main-header">
+=======
+                <li><a href="#section-featuers">Offer</a></li>
+                <li><a href="#group">About us</a></li>
+
+            </ul>
+            <a href="javascript:void(0);" class="mobile-nav-icon" onclick="myFunction2()">
+                <ion-icon name="menu"></ion-icon>
+            </a>
+
+        </nav>
+   
+        <div class="main-header" id="header">
+>>>>>>> Stashed changes
                 <h1>Get up and let's go to the new natural world</h1>
-                <a class="btn btn-join" href="#">Join me!</a>
-                <a class="btn btn-read" href="#">Read more</a>
+                <a class="btn btn-join" href="#section-featuers">Join me!</a>
+                <a class="btn btn-read" href="#customers-opinion">Read more</a>
             </div>
         </nav>
     </header>
-    <section class="section-feauters">
+    <section class="section-featuers" id="section-featuers">
         <div class="section group">
             <h2>Leave the old life - You can do it</h2>
-            <p class="desc-section-feauters">Do you want to be faster, healthier and better inside? Do you feel the desire in heart? Do you remember the superheroes of your best childhood years? It's not a joke you can try it now! It's not a joke, dare! You won't regret, just <strong>NATURE - ACTIVE!</strong></p>
+            <p class="desc-section-featuers">Do you want to be faster, healthier and better inside? Do you feel the desire in heart? Do you remember the superheroes of your best childhood years? It's not a joke you can try it now! It's not a joke, dare! You won't regret, just <strong>NATURE - ACTIVE!</strong></p>
 
         </div>
     </section>
@@ -110,11 +124,11 @@
         </ul>
 
     </section>
-    <section class="customers-opinion">
+    <section class="customers-opinion" id="customers-opinion">
         <div class="section group">
             <h2>Our customers can't stop living with nature!</h2>
         </div>
-        <div class="section group">
+        <div class="section group" id="group">
             <div class="col span_1_of_3">
                 <blockquote>
                     We've seen amazing results already. I could probably go into sales for you. Nature-Active is both attractive and highly adaptable. Nature-Active is the most valuable business resource we have EVER purchased.
@@ -166,8 +180,12 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <script src="resources/js/script.js"></script>
+    <script src="resources/js/jquery.js"></script>
     <!--navbar script example -->
 
 </body>

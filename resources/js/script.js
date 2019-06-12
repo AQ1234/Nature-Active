@@ -1,15 +1,21 @@
+
+
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    console.log(sticky);
+
+    if (window.pageYOffset > sticky && window.pageYOffset> 800) {
+        navbar.classList.add("sticky")
+        console.log(sticky);
+    } else {
+        navbar.classList.remove("sticky");
+    }
 }
+
 
 function myFunction2() {
     var x = document.getElementById("js--main-nav");
@@ -19,3 +25,5 @@ function myFunction2() {
         x.className = "main-nav";
     }
 }
+
+

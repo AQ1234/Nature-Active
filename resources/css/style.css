@@ -208,17 +208,18 @@ background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pe
 
 .sticky {
     position: fixed;
-    top: 0;
+    top: 0s;
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.94);
+    -webkit-box-shadow: 0 3px 13px #dedede;
     box-shadow: 0 3px 13px #dedede;
     z-index: 9999;
 
 }
 
 .sticky .main-nav {
-    margin-top: -15px;
+    margin-top: 15px;
 }
 
 .sticky img {

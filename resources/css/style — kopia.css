@@ -401,7 +401,6 @@ blockquote {
     
     padding: 2%;
     font-style: italic;
-    text-align: justify;
     line-height: 145%;
     position: relative;
     margin-bottom: auto;
@@ -419,56 +418,29 @@ blockquote:before {
     
 }
 
- cite {
+cite {
     
 
     font-size: 70%;
     display: block;
     text-align: justify;
-     
-    
+  
 }
+
 
 
 
 cite img {
     
-  
+    margin-top: 10%;
+    margin-left: 5%;
     height: 120px;
     vertical-align: middle;
     border-radius: 50%;
-    
-    
-
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
  
-}
+    
 
-.flex-container > div {
-  
-  width: auto;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: auto;
 }
-.flex-container-2 {
-    display: flex;
-    justify-content: space-around;
-   
-}
-.flex-container-2 > div {
-  
-  width: auto;
-  text-align: left;
-  font-size: auto;
-}
-
-
 
 /* footer */
 
@@ -550,3 +522,33 @@ footer p {
 
 .logo-googleplus:hover { color: #db3236; }
 
+.flex-container {
+    display: flex;
+  justify-content: center;
+    background-size: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(lake-with-mountains-min.jpg);
+}
+
+.flex-container > div {
+  
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: auto;
+}
+.flex-container-2 {
+    display: flex;
+  justify-content: space-around;
+    background-size: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(lake-with-mountains-min.jpg);
+}
+
+.flex-container-2 > div {
+  
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: auto;
+}

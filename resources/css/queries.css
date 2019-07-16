@@ -1,16 +1,20 @@
 @media only screen and (max-width: 1550px) {
 
-    .figure-image div {
-        width: 22%;
-    }
+     .section {padding: 0 2%;}  
+   
 
     .figure-image:hover div {
-        font-size: 22px;
+        font-size: 20px;
     }
 
+   
 }
 
 @media only screen and (max-width: 1360px) {
+
+    .mainlogo {
+        width: 180px;
+    }
 
     .group section {
         padding: 0 2%;
@@ -18,25 +22,16 @@
 
     /* OFFERS */
 
-    .figure-image div {
-
-        width: 23%;
-        margin: 1% 9%;
-
-    }
+   
 
     .figure-image:hover div {
 
         padding: 2% 2%;
-        font-size: 18px;
+        font-size: 15px;
 
     }
 
     /*FOOTER */
-
-    .center-footer {
-        margin: -70px;
-    }
 
 }
 
@@ -50,22 +45,28 @@
     /* HEADER */
 
     .mainlogo {
+        160px;
+    }
 
-        float: left;
-        width: 235px;
-        margin-top: 15px;
+    .sticky .mainlogo {
+        160px;
+    }
 
+    .sticky .main-nav {
+        font-size: 18px;
     }
 
     /*  customers-opinion  */
 
-    cite.two {
-        margin-top: 27px;
+ 
+
+    cite img {
+
+        width: 38%;
+        height: 38%;
+
     }
 
-    cite.three {
-        margin-top: 45px;
-    }
 
     /* OFFERS */
 
@@ -75,42 +76,26 @@
 
     .figure-image div {
 
-        width: 28%;
-        padding-bottom: 2%;
+        width: 25%;
         margin: 2% 5%;
 
     }
 
     .figure-image:hover div {
 
-        height: auto;
         padding: 2% 2%;
-        font-size: 100%;
+        font-size: 13px;
     }
-
-
-
 
     /*FOOTER */
 
-    footer {
-        font-size: 90%;
-    }
+ .social-links {
 
-    .center-footer {
-
-        text-align: center;
-        margin: -60px;
+       margin-top: 10px;
+        list-style: none;
+        float: right;
 
     }
-
-    .left-part-footer a img {
-
-        margin: -17px 0px 0px 0px;
-        width: 32%;
-
-    }
-
 
     .social-links li {
 
@@ -129,18 +114,29 @@
         font-size: 17px;
     }
 
-    .mainlogo {
-        width: 25%;
-    }
-
     .main-nav {
         float: right;
         margin: 25px 15px;
         list-style: none;
     }
 
+    .sticky .main-nav {
+        font-size: 18px;
+    }
+
     .main-nav li {
         margin: 25px 20px;
+    }
+
+    .mainlogo {
+
+
+        width: 150px;
+    }
+
+    .sticky .mainlogo {
+
+        width: 150px;
     }
 
     /* OFFERS */
@@ -148,70 +144,31 @@
     .figure-image img {
         width: 110%;
     }
-
-    .figure-image div {
-
-        width: 30%;
-        padding-bottom: 2%;
-        margin: 2% 5%;
-
-    }
-
     .figure-image:hover div {
 
-        height: auto;
         padding: 2% 2%;
-        font-size: 85%;
+        font-size: 12.5px;
     }
-
-
+    
 
     /*  customers-opinion  */
 
-
-
-    cite.three {
-        margin-top: 55px;
-    }
-
-    cite img {
-
-        width: 45%;
-        height: 45%;
-        margin-left: 0%;
-        margin-right: 0%;
-
-
-    }
-
+ 
+  
     /* FOOTER */
 
-    footer {
 
-        height: 90px;
-    }
 
-    .center-footer {
 
-        text-align: center;
-        margin: -55px;
-
-    }
-
-    .social-links li {
-        margin-right: 15px;
-    }
 }
 
 
 @media only screen and (max-width: 767px) {
 
+    
     .main-nav {
-
         margin: 25px 15px;
-
     }
-
 
     .main-nav li {
 
@@ -236,12 +193,17 @@
         text-align: center;
 
     }
-}
 
-@media only screen and (max-width: 767px) {
     .main-nav.responsive {
         right: 55%;
         position: relative;
+
+    }
+
+    .sticky .main-nav.responsive {
+        right: 58%;
+        position: relative;
+        font-size: 16px;
 
     }
 
@@ -256,8 +218,22 @@
         display: block;
         text-align: left;
     }
+    
+    .figure-image {
+    
+        font-size: 90%;
+       
+    }
+   .figure-image:hover div {
+   
+    -webkit-transform: scaleY(1);
+   
+    
+    padding: 0.5%;
+ 
 }
 
+}
 
 @media only screen and (max-width: 650px) {
 
@@ -267,37 +243,15 @@
 
     /*  customers-opinion  */
 
-    cite img {
-
-        width: 45%;
-        height: 45%;
-        margin-left: -1%;
-        margin-right: 0%;
-
-
-    }
-
-    cite.two {
-        margin-top: 18px;
-    }
-
     /* FOOTER */
 
-    footer {
 
-        height: 80px;
-    }
 
     .social-links li {
         margin-right: 8px;
     }
 
-    .social-links {
+  
 
-        margin: -10px 0px 0px 15px;
-        list-style: none;
-        float: right;
-
-    }
 
 }

@@ -550,3 +550,13 @@ footer p {
 
 .logo-googleplus:hover { color: #db3236; }
 
+
+/* Animations */
+
+.js--wp-1,
+.js--wp-2 {
+    
+    opacity: 0;
+     animation-duration: 1s;
+    
+}

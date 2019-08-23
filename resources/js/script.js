@@ -1,10 +1,9 @@
 
 /*Sticky nav */
-window.onscroll = function() {myFunction()};
+window.onscroll = () => Sticky();
 
-
-function myFunction() {
-    var navbar = document.getElementById("navbar");
+Sticky = () => {
+    var navbar = document.querySelector(".header__navbar");
     var sticky = navbar.offsetTop;
     if (window.pageYOffset > sticky && window.pageYOffset> 670) {
         navbar.classList.add("sticky");
@@ -14,16 +13,15 @@ function myFunction() {
     }
 }
 
-
-function myFunction2() {
+ myFunction2 = () => {
     var x = document.getElementById("js--main-nav");
-    if (x.className === "main-nav") {
-        x.className += " responsive";
-       
+    if (x.className === "header__main-nav") {
+        x.className += " responsive";   
     } else {
-        x.className = "main-nav";
+        x.className = "header__main-nav";
     }
 }
+
 
 /* Change content in offers */
 window.onresize = function () {
@@ -50,13 +48,11 @@ window.onresize = function () {
     
     offset: '50%'        
     });
-$('.js--wp-2').waypoint(function(direction) {
+
+    $('.js--wp-2').waypoint(function(direction) {
         
-        $('.js--wp-2').addClass('animated fadeIn');
+        $('.js--wp-2').addClass('animated fadeInLeft');
     }, {
     
-    offset: '50%'        
+    offset: '75%'        
     });
-
-
-

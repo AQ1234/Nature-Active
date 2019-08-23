@@ -1,31 +1,19 @@
 @media only screen and (max-width: 1550px) {
 
-     .section {padding: 0 2%;}  
-   
+    .section { padding: 0 2%; }
 
-    .figure-image:hover div {
-        font-size: 20px;
-    }
-
-   
+    .section-offers__figure-image:hover div { font-size: 20px; }
 }
 
 @media only screen and (max-width: 1360px) {
 
-    .mainlogo {
-        width: 180px;
-    }
+    .header__mainlogo { width: 180px; }
 
-    .group section {
-        padding: 0 2%;
-    }
+    .group section { padding: 0 2%; }
 
     /* OFFERS */
 
-   
-
-    .figure-image:hover div {
-
+    .section-offers__figure-image:hover div {
         padding: 2% 2%;
         font-size: 15px;
 
@@ -37,31 +25,15 @@
 
 @media only screen and (max-width: 1023px) {
 
-    body {
-        font-size: 18px;
-    }
-
+    body { font-size: 18px; }
 
     /* HEADER */
 
-    .mainlogo {
-        160px;
-    }
-
-    .sticky .mainlogo {
-        160px;
-    }
-
-    .sticky .main-nav {
-        font-size: 18px;
-    }
+    .sticky .header__main-nav { font-size: 18px; }
 
     /*  customers-opinion  */
 
- 
-
     cite img {
-
         width: 38%;
         height: 38%;
 
@@ -70,35 +42,27 @@
 
     /* OFFERS */
 
-    .figure-image img {
-        width: 110%;
-    }
+    .section-offers__figure-image img { width: 110%; }
 
-    .figure-image div {
-
+    .section-offers__figure-image div {
         width: 25%;
         margin: 2% 5%;
-
     }
 
-    .figure-image:hover div {
-
+    .section-offers__figure-image:hover div {
         padding: 2% 2%;
         font-size: 13px;
     }
 
     /*FOOTER */
 
- .social-links {
-
-       margin-top: 10px;
+    .footer__social-links {
+        margin-top: 10px;
         list-style: none;
         float: right;
-
     }
 
-    .social-links li {
-
+    .footer__social-links li {
         display: inline-block;
         margin-right: 21px;
         font-size: 190%;
@@ -110,148 +74,97 @@
 @media only screen and (max-width: 850px) {
 
     /* HEADER */
-    body {
-        font-size: 17px;
-    }
+    body { font-size: 17px; }
 
-    .main-nav {
+    .header__main-nav {
         float: right;
         margin: 25px 15px;
         list-style: none;
     }
 
-    .sticky .main-nav {
-        font-size: 18px;
-    }
+    .sticky .header__main-nav { font-size: 18px; }
 
-    .main-nav li {
-        margin: 25px 20px;
-    }
+    .header__main-nav li { margin: 25px 20px; }
 
-    .mainlogo {
+    .header__mainlogo { width: 150px; }
 
-
-        width: 150px;
-    }
-
-    .sticky .mainlogo {
-
-        width: 150px;
-    }
+    .sticky .header__mainlogo { width: 150px; }
 
     /* OFFERS */
 
-    .figure-image img {
-        width: 110%;
-    }
-    .figure-image:hover div {
+    .section-offers__figure-image img { width: 110%; }
 
+    .section-offers__figure-image:hover div {
         padding: 2% 2%;
         font-size: 12.5px;
+
     }
-    
-
-    /*  customers-opinion  */
-
- 
-  
-    /* FOOTER */
-
-
-
-
 }
 
-
 @media only screen and (max-width: 767px) {
+   
+    .header__main-nav { margin: 25px 15px; }
 
-    
-    .main-nav {
-        margin: 25px 15px;
-    }
-
-    .main-nav li {
+    .header__main-nav li {
 
         display: block;
         margin: 15px;
 
     }
 
-    .main-nav a {
-        display: none;
-    }
+    .header__main-nav a { display: none; }
 
-    a.mobile-nav-icon {
+    a.header--mobile-nav-icon {
         float: right;
         display: block;
     }
 
-    .main-nav li a:link,
-    .main-nav li a:visited {
-
+    .header__main-nav li a:link,
+    .header__main-nav li a:visited {
         font-size: 120%;
         text-align: center;
 
     }
 
-    .main-nav.responsive {
+    .header__main-nav.responsive {
         right: 55%;
         position: relative;
 
     }
 
-    .sticky .main-nav.responsive {
+    .sticky .header__main-nav.responsive {
         right: 58%;
         position: relative;
         font-size: 16px;
 
     }
 
-    .mobile-nav-icon {
+    .header--mobile-nav-icon {
         left: 85%;
         position: absolute;
 
     }
 
-    .main-nav.responsive a {
+    .header__main-nav.responsive a {
         float: left;
         display: block;
         text-align: left;
     }
-    
-    .figure-image {
-    
-        font-size: 90%;
-       
-    }
-   .figure-image:hover div {
-   
-    -webkit-transform: scaleY(1);
-   
-    
-    padding: 0.5%;
- 
-}
 
+    .section-offers__figure-image { font-size: 90%; }
+
+    .section-offers__figure-image:hover div {
+        -webkit-transform: scaleY(1);
+        padding: 0.5%;
+
+    }
 }
 
 @media only screen and (max-width: 650px) {
 
-    body {
-        font-size: 16px;
-    }
-
-    /*  customers-opinion  */
-
+    body { font-size: 16px; }
     /* FOOTER */
 
-
-
-    .social-links li {
-        margin-right: 8px;
-    }
-
-  
-
+    .social-links li { margin-right: 8px; }
 
 }

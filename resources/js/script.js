@@ -9,7 +9,6 @@ Sticky = () => {
         navbar.classList.add("sticky");
     } else {
         navbar.classList.remove("sticky");
-
     }
 }
 
@@ -21,6 +20,7 @@ Sticky = () => {
         x.className = "header__main-nav";
     }
 }
+
 
 
 /* Change content in offers */
@@ -41,17 +41,17 @@ window.onresize = function () {
 
 /*animations on scroll*/
 
-  $('.js--wp-1').waypoint(function(direction) {
+  $('.customers-opinion--wp-1').waypoint(function(direction) {
         
-        $('.js--wp-1').addClass('animated fadeInUp');
+        $('.customers-opinion--wp-1').addClass('animated fadeInUp');
     }, {
     
     offset: '50%'        
     });
 
-    $('.js--wp-2').waypoint(function(direction) {
+    $('.section__featuers--header').waypoint(function(direction) {
         
-        $('.js--wp-2').addClass('animated fadeInLeft');
+        $('.section__featuers--header').addClass('animated fadeInLeft');
     }, {
     
     offset: '75%'        

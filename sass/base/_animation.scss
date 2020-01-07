@@ -1,0 +1,80 @@
+@-webkit-keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+        -webkit-transform: translateY(3rem);
+        -moz-transform: translateY(3rem);
+        -ms-transform: translateY(3rem);
+        -o-transform: translateY(3rem);
+}
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@-webkit-keyframes flip-in-hor-bottom {
+    0% {
+        -webkit-transform: rotateX(80deg);
+        transform: rotateX(80deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flip-in-hor-bottom {
+    0% {
+        -webkit-transform: rotateX(80deg);
+        transform: rotateX(80deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fromRight {
+    0% {
+        transform: rotateX(80deg);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: rotateX(0);
+        opacity: 1;
+
+    }
+}
+
+
+
+/* Animations jQuery*/
+
+.customers-opinion--wp-1,
+.section__featuers--header{
+    opacity: 0;
+    animation-duration: 1s;
+    
+}

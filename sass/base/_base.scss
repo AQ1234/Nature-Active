@@ -1,0 +1,53 @@
+/* BASIC SETUP */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+    font-size: 125%;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    background-image: radial-gradient(rgba(251, 249, 238, 0.75), rgba(251, 249, 238, 0.75)), url(largetree-min.jpg);
+    background-size: cover;
+    color: #fbf9ee;
+    height: auto;
+}
+
+
+.offer-body {
+    height: auto;
+ 
+}
+
+
+.clearfix { zoom: 1 }
+.clearfix:after {
+
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.section group {
+    width: 100vw;
+    margin: 0 auto;
+
+}
+
+section { padding: 4rem 0; }
+.col { text-align: justify; }
+.box { margin-top: 1.25rem; }

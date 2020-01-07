@@ -1,4 +1,3 @@
-
 /*Sticky nav */
 window.onscroll = () => Sticky();
 
@@ -28,12 +27,8 @@ Sticky = () => {
              setTimeout(() => {
                  sign.innerHTML = '<ion-icon name="menu"></ion-icon>';
              }, 80);
-         }
-
-       
-}
-
-
+         } 
+    }
 
 /* Change content in offers */
 window.onresize = function () {
@@ -49,7 +44,6 @@ window.onresize = function () {
         document.getElementById("beach").innerHTML = "<h3>Walking on beach!</h3>-We will be walking everyday<br>-You will be walking across the beach from 5 a.m to 7 a.m<br>-You will have to walking not less than 45 minutes<br>";
     }
 }
-
 
 /*animations on scroll*/
 

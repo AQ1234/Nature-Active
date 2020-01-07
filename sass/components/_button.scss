@@ -1,0 +1,41 @@
+.btn {
+    border: 2px solid $color-orange-dark;
+    border-radius: 20rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: .7rem;
+    -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    
+    }
+}
+
+
+.header--btn {
+
+    &-join:link,
+    &-join:visited {
+        background-color: $color-orange-dark;
+        color: #fbf9ee;
+
+    }
+        &:hover,
+        &:active {
+        background-color: #ad6511;
+        color: #fbf9ee;
+        
+    }
+
+    &-read:link,
+    &-read:visited { color: $color-orange-dark; } 
+        &:hover,
+        &:active {
+            background-color: #ad6511;
+            color: #fbf9ee;
+        }
+    }

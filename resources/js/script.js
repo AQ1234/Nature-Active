@@ -12,13 +12,25 @@ Sticky = () => {
     }
 }
 
- myFunction2 = () => {
-    var x = document.getElementById("js--main-nav");
-    if (x.className === "header__main-nav") {
-        x.className += " responsive";   
-    } else {
-        x.className = "header__main-nav";
-    }
+ NavBarSticky = () => {
+         var x = document.getElementById("js--main-nav");
+         var sign = document.getElementById("js--nav-icon");
+         if (x.className === "header__main-nav") {
+             x.className += " responsive";
+
+             setTimeout(() => {
+                 sign.innerHTML = '<ion-icon name="close"></ion-icon>';
+             }, 80);
+
+         } else {
+             x.className = "header__main-nav";
+
+             setTimeout(() => {
+                 sign.innerHTML = '<ion-icon name="menu"></ion-icon>';
+             }, 80);
+         }
+
+       
 }
 
 

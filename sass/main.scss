@@ -265,9 +265,10 @@ header {
             display: inline-block;
             margin: 30px;
             animation: moveInBottom .5s ease-out .75s;
+            -webkit-animation: moveInBottom .5s ease-out .75s;
             animation-fill-mode: backwards;
-           
-            &:hover { transform: translateY(-3px); }
+            &:hover
+{ transform: translateY(-3px); }
          
              a:link,
              a:visited {
@@ -308,11 +309,22 @@ header {
     display: none;
     color: #fff;
     font-size: 200%; 
+    position: relative;
 
         &:hover {
             color: #c47519;
 
         }
+}
+.header--mobile-nav-icon2 {
+    float: right;
+    margin: 40px 3% 40px 3%;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 200%;
+    position: absolute;
+
 }
 
 
@@ -537,7 +549,7 @@ footer {
 
     background-color: rgba(36, 36, 36, 0.91);
     padding: .1rem;
-    height: 7rem;
+    height: 6rem;
     margin: .7rem 0;
     font-size: 90%;
 

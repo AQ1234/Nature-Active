@@ -195,6 +195,7 @@ header {
     display: inline-block;
     margin: 30px;
     animation: moveInBottom .5s ease-out .75s;
+    -webkit-animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards; }
     .header__main-nav li:hover {
       transform: translateY(-3px); }
@@ -228,9 +229,19 @@ header {
   cursor: pointer;
   display: none;
   color: #fff;
-  font-size: 200%; }
+  font-size: 200%;
+  position: relative; }
   .header--mobile-nav-icon:hover {
     color: #c47519; }
+
+.header--mobile-nav-icon2 {
+  float: right;
+  margin: 40px 3% 40px 3%;
+  cursor: pointer;
+  display: none;
+  color: #fff;
+  font-size: 200%;
+  position: absolute; }
 
 /* Nav responsive */
 /*Sticky navi*/
